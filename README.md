@@ -46,27 +46,6 @@ conda install -c conda-forge pandas -y
 conda install -c conda-forge opencv -y
 ```
 
-## Usage of evaluation script
-
-To use the model for classifying the freshness of a fruit or vegetable image, follow these steps:
-
-1. Clone the repository to your local machine:
-
-```bash
-git clone https://github.com/captraj/fruit-veg-freshness-ai.git
-cd fruit-veg-freshness-ai
-```
-
-
-2. Make sure to place the image you want to evaluate in the repository's root directory and rename it to `image-to-eval.png`. You may replace `image-to-eval.png` with the path to your own image if it's located elsewhere.
-
-3. Use the `evaluate-image.py` script to evaluate the freshness of the image:
-
-```bash
-python evaluate-image.py
-```
-
-
 4. The script will output the prediction and its freshness classification:
 
 `Prediction: 0.245`
@@ -82,7 +61,6 @@ This project has been completed!
 
 The further implementation of this project into an API is listed on my profile as **freshcheck**, do have a look at that to better understand the integration of this repository.
 
-The **FreshCheck** repository is located at : [https://github.com/captraj/freshcheck]
 
 
 
